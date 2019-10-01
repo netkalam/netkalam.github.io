@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>NETKALAM</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel='stylesheet' type='text/css'>
+
+    <link href="css/mobile-menu.css" rel="stylesheet">
+
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="fonts/flaticon/flaticon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false, multilanguagePage: true, gaTrack: true, gaId: 'UA-47710386-4'}, 'google_translate_element');
+        }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.list {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2px;
+  padding: -1px;
+}
+.list li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  width: 50%;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.list li::before {
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 3rem;
+  margin-right: 0.5rem;
+  font-family: 'Abril Fatface', serif;
+  line-height: 1;
+}
+.hover figure:hover  img{
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+    
+    </style>
+</head>
+
+<body>
+    <div id="main-wrapper">
+
+        <div id="preloader">
+            <div id="status">
+                <div class="status-mes"></div>
+            </div>
+        </div>
+        <div class="uc-mobile-menu-pusher">
+            <div class="content-wrapper">
+                <div class="header-top visible-md visible-lg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4">
+                                <ul class="social-icon">
+                                    <li><a href="" class="fa fa-facebook" aria-hidden="true"> </a></li>
+                                    <li><a href="" class="fa fa-twitter" aria-hidden="true"> </a></li>
+
+                                    <li><a href="" class="fa fa-google-plus" aria-hidden="true"> </a></li>
+                                    <li><a href="" class="fa fa-linkedin" aria-hidden="true"> </a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-12 col-md-8">
+                                <ul class="top-contact pull-right">
+                                    <li class="phone"><i class="fa fa-phone-square" aria-hidden="true"></i> +42-123-4567
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="navbar m-menu navbar-default">
+                    <div class="container">
+
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                        </div>
+
+                        <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right main-nav">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li class="active"><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </nav>
+
+                <section class="single-page-title single-page-title-services">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Our Services</h2>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-content-left-icon">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="left-icon-wraper">
+                                    <div class="icon">
+                                        <i class="flaticon-analytics"></i>
+                                    </div>
+                                    <div class="content">
+                                        <h2>Campaign Management </h2>
+                                        <p>We Manage your Performance campaigns to reach your targets.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="left-icon-wraper">
+                                    <div class="icon"><i class="flaticon-coding"></i></div>
+                                    <div class="content">
+                                        <h2>Media buying</h2>
+                                        <p>Programmatic Media buying to reach your audience wherever they are.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="left-icon-wraper">
+                                    <div class="icon"><i class="flaticon-monitoring"></i></div>
+                                    <div class="content">
+                                        <h2>Protect Your Brand</h2>
+                                        <p>Use specific placements or other metrics to protect your brand.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="left-icon-wraper">
+                                        <div class="icon"><i class="flaticon-social-media"></i></div>
+                                        <div class="content">
+                                            <h2>Content Marketing</h2>
+                                            <p>Efficiently monetize technically sound e-markets rather than
+                                                interoperable
+                                                e-services.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="left-icon-wraper">
+                                        <div class="icon"><i class="flaticon-sitemap"></i></div>
+                                        <div class="content">
+                                            <h2>Cross Device</h2>
+                                            <p>Reach your users on different devices where their attention is captured.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="left-icon-wraper">
+                                        <div class="icon"><i class="flaticon-stats"></i></div>
+                                        <div class="content">
+                                            <h2>Scale Up</h2>
+                                            <p>Scalable performance to reach your targets.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <section class="featured-box gray-bg">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <span>
+                                    <h1 class="section-title text-center">How We Work</h1>
+                                </span>
+                                <div class="featured-content-wrapper hover">
+                                    <div class="featured-img">
+                                       <figure><img class="img-responsive " src="img/how.jpg "></figure> 
+                                    </div>
+                                    <div class="featured-content">
+
+
+                                        <ol class="list">
+                                            <li>Lorem ipsum dolor sit amet.</li>
+                                            <li>Tempore nostrum laborum sequi obcaecati.</li>
+                                            <li>Illo iusto dolores magnam ratione!</li>
+                                            <li>Amet odio rerum alias impedit!</li>
+                                        </ol>
+
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-md-12">
+                                <span>
+                                    <h1 class="section-title text-center">Why Choose Our Services</h1>
+                                </span>
+                                <div class="featured-content-wrapper hover">
+                                    <div class="featured-img">
+                                      <figure><img class="img-responsive " src="img/why.jpg "></figure>  
+                                    </div>
+                                    <div class="featured-content">
+                                            <ol class="list">
+                                                    <li>Lorem ipsum dolor sit amet.</li>
+                                                    <li>Tempore nostrum laborum sequi obcaecati.</li>
+                                                    <li>Illo iusto dolores magnam ratione!</li>
+                                                    <li>Amet odio rerum alias impedit!</li>
+                                                </ol>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+                <footer class="footer">
+
+                    <div class="footer-widget-section">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="footer-logo">
+                                        <a href="#"><img class="img-responsive" src="img/logo-footer.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="footer-text">
+                                        <p>Assertively architect synergistic platforms vis-a-vis premium results.
+                                            Synergistically facilitate high-payoff e-services rather than top-line
+                                            sources. Collaboratively drive market positioning infomediaries without
+                                            real-time e-commerce.</p>
+                                        <ul>
+                                            <li class="phone"><i class="fa fa-volume-control-phone"
+                                                    aria-hidden="true"></i> 1-677-124-44227
+                                                <small><i class="fa fa-clock-o" aria-hidden="true"></i> Mon - Sat 8.00 -
+                                                    18.00h</small></li>
+                                            <li class="address">
+                                                <address>
+                                                    <i class="fa fa-map-pin" aria-hidden="true"></i>
+                                                    437 S Olive St, Los Angeles
+                                                </address>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright-section">
+                        <div class="container clearfix">
+
+                            <ul class="list-inline pull-right">
+                                <li class="active"><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                            <div id="google_translate_element"></div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+
+        </div>
+
+        <div class="uc-mobile-menu uc-mobile-menu-effect">
+            <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas"
+                id="uc-mobile-menu-close-btn">&times;</button>
+            <div>
+                <div>
+                    <ul id="menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js" type="9fefede8afc0d4c85c9bcf04-text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"
+        type="9fefede8afc0d4c85c9bcf04-text/javascript"></script>
+    <script src="js/smoothscroll.js" type="9fefede8afc0d4c85c9bcf04-text/javascript"></script>
+    <script src="js/mobile-menu.js" type="9fefede8afc0d4c85c9bcf04-text/javascript"></script>
+    <script src="js/flexSlider/jquery.flexslider-min.js" type="9fefede8afc0d4c85c9bcf04-text/javascript"></script>
+    <script src="js/scripts.js" type="9fefede8afc0d4c85c9bcf04-text/javascript"></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js"
+        data-cf-settings="9fefede8afc0d4c85c9bcf04-|49" defer=""></script>
+</body>
+
+</html>
